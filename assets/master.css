@@ -1,0 +1,93 @@
+/*--- AZZERAMENTO ---*/
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+img{
+  height: 20px;
+}
+/* .navbar-brand{
+  height: 100px;
+} */
+.fa-angle-down:before {
+    content: "\f107";
+    margin-left: -26px;
+}
+.navbar-default .navbar-nav .dropdown > .my-button{
+    color: #0047FA;
+    line-height: 2px;
+}
+
+.my-button{
+  border: 1px solid #0047FA;
+  height: 10px;
+  margin-top: 10px;
+}
+.jumbo{
+  background-image: url(../assets/img4/bg-blue.svg);
+
+}
+.color-white{
+  color: white;
+}
+.font-size{
+  font-size: 58px;
+}
+.mg-top{
+  padding-top: 40px;
+}
+.form{
+  background-color: #fff;
+  border-radius: 10px;
+}
+.form > h2{
+  padding: 0px 20px;
+}
+.form > input{
+  display: block;
+  width: 95%;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  height: 30px;
+}
+.create-profile{
+  background-color: cyan;
+  width: 95%;
+  border-radius: 5px;
+  margin: 0 auto;
+  height: 30px;
+  margin-bottom: 10px;
+}
+.line-height{
+  line-height: 30px;
+}
+.google{
+  background-color: white;
+  border: 1px solid lightgrey;
+}
+.fa-google{
+  float:left;
+  margin-left: 5px;
+  line-height: 30px;
+}
+.mg-bottom{
+  padding-bottom: 25px;
+}
+/* .under-line{
+  text-decoration: underline;
+  color:
+} */
+.marchi{
+  background-color: #F2F5F9;
+
+}
+.marchi > .container > .row > .col-lg-12 > h5{
+  color: lightgrey;
+}
+.marche > img{
+  height: 100px;
+}
+ 
