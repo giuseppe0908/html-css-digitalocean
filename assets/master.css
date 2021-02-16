@@ -34,16 +34,20 @@ img{
 .font-size{
   font-size: 58px;
 }
+
 .mg-top{
   padding-top: 40px;
 }
+
 .form{
   background-color: #fff;
   border-radius: 10px;
 }
+
 .form > h2{
-  padding: 0px 20px;
+  padding: 30px 20px;
 }
+
 .form > input{
   display: block;
   width: 95%;
@@ -53,6 +57,7 @@ img{
   border: 1px solid lightgrey;
   height: 30px;
 }
+
 .create-profile{
   background-color: cyan;
   width: 95%;
@@ -60,6 +65,7 @@ img{
   margin: 0 auto;
   height: 30px;
   margin-bottom: 10px;
+  margin-left: 11px;
 }
 .line-height{
   line-height: 30px;
@@ -80,14 +86,148 @@ img{
   text-decoration: underline;
   color:
 } */
+
+
+/*--- SECTION MARCHI LOGHI ---*/
+
 .marchi{
   background-color: #F2F5F9;
 
 }
-.marchi > .container > .row > .col-lg-12 > h5{
+.color-grey{
   color: lightgrey;
 }
-.marche > img{
-  height: 100px;
+ul li{
+  list-style-type: none;
 }
- 
+.marche li{
+  display: inline-block;
+}
+.marche > li > img{
+  height: 80px;
+  margin-right: 15px;
+}
+
+/*--- SECTION DEPLOY ---*/
+.color-title{
+  color: #3E5077;
+}
+.deploy > .container > .row  .col-xs-12 > p{
+  margin-bottom: 50px;
+}
+
+.deploy .row > .col-lg-4 > ul  li{
+  border-left: 2px solid lightgrey;
+  padding: 10px 10px;
+  margin-left: 80px;
+}
+/*--- SECTION DESIGN DEVELOPERS ---*/
+
+.design-developer , .development{
+  background-color: #F2F5F9;
+}
+/* .design-developer > .container > .row .col-xs-4 > .fa-angle-left{
+  text-align: right;
+} */
+.design-developer > .container > .row .col-xs-12 > img{
+  height: 300px;
+}
+.design-developer > .container > .row .speciale:before{
+  content:' \02F1';
+  font-size: 40px;
+}
+.design-developer > .container > .row .speciale:after{
+  content:' \02F2';
+  font-size: 40px;
+}
+
+.design-developer > .container > .row .col-xs-12 > .circle{
+  display: inline-block;
+  width: 10px;
+  border-radius: 50%;
+  height: 10px;
+  border: 1px solid #0047FA;
+  margin-right: 5px;
+}
+.selezionato{
+  background-color: #0047FA;
+}
+/*--- SECTION CITY ---*/
+.city{
+  background-color: #0047FA;
+}
+.city > .container > .row .col-lg-6{
+  position: relative;
+}
+.city > .container > .row .col-lg-6  .code{
+  margin-right: 50px;
+}
+ .city > .container > .row .col-lg-6 > .name-city{
+  color: #9BB0E1;
+}
+.city > .container > .row .col-lg-6  .speed-test{
+  position: absolute;
+  right: 18px;
+  color: #00C2CE;
+}
+
+
+.development > .container > .row .col-xs-12 > img{
+  height: 300px;
+}
+.development > .container > .row .speciale:before{
+  content:' \02F1';
+  font-size: 40px;
+}
+.development > .container > .row .speciale:after{
+  content:' \02F2';
+  font-size: 40px;
+}
+
+.development > .container > .row .col-xs-12 > .circle{
+  display: inline-block;
+  width: 10px;
+  border-radius: 50%;
+  height: 10px;
+  border: 1px solid #0047FA;
+  margin-right: 5px;
+}
+.selezionato{
+  background-color: #0047FA;
+}
+/*--- FOOTER ---*/
+.get-start{
+  background-color: #0047FA;
+}
+.get-start button{
+  color: #0047FA;
+  border-radius: 5px;
+  border: 0;
+  /* width: 150px; */
+  padding: 5px 10px;
+  margin-bottom: 40px;
+}
+
+.dark-blue{
+  background-color: #031C4E;
+}
+.made{
+  color: #526080;
+}
+.dark-blue > .container > .row > .col-lg-3 ul li{
+  display: inline-block;
+}
+.dark-blue > .container > .row > .col-lg-3 > img{
+  margin-top: 40px;
+}
+
+ /* @media all and (min-width: 0px) and (max-width: 1200px) {
+   .marchi > .container  .row  .col-lg-12 > .marche > img{
+     height: 80px;
+   }
+ }
+ @media all and (min-width: 0px) and (max-width: 954px){
+   .marchi > .container > .row .col-md-12 > .marche{
+     text-align: center;
+   }
+ }*/
