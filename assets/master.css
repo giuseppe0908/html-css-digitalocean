@@ -4,12 +4,11 @@
   padding: 0px;
   box-sizing: border-box;
 }
+/*--- HEADER + NAV-BAR ---*/
 img{
   height: 20px;
 }
-/* .navbar-brand{
-  height: 100px;
-} */
+
 .fa-angle-down:before {
     content: "\f107";
     margin-left: -26px;
@@ -18,21 +17,39 @@ img{
     color: #0047FA;
     line-height: 2px;
 }
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+color: #0047FA;
+background-color: transparent;
+cursor: pointer;
+}
 
 .my-button{
   border: 1px solid #0047FA;
   height: 10px;
   margin-top: 10px;
 }
+
+ /*--- FINE NAV-BAR ---*---/
+
+/*--- SECTION JUMBOOO ---*/
 .jumbo{
   background-image: url(../assets/img4/bg-blue.svg);
-
 }
+
 .color-white{
   color: white;
 }
+
+a:hover{
+  text-decoration: none;
+  color: #0047FA;
+}
+
 .font-size{
   font-size: 58px;
+}
+.jumbo > .container > .row > .col-sm-6 p{
+  font-size: 15px;
 }
 
 .mg-top{
@@ -42,6 +59,8 @@ img{
 .form{
   background-color: #fff;
   border-radius: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .form > h2{
@@ -59,7 +78,7 @@ img{
 }
 
 .create-profile{
-  background-color: cyan;
+  background-color: #5799FF;
   width: 95%;
   border-radius: 5px;
   margin: 0 auto;
@@ -67,75 +86,87 @@ img{
   margin-bottom: 10px;
   margin-left: 11px;
 }
+
 .line-height{
   line-height: 30px;
 }
+
 .google{
   background-color: white;
   border: 1px solid lightgrey;
 }
+
 .fa-google{
   float:left;
   margin-left: 5px;
   line-height: 30px;
 }
+
 .mg-bottom{
   padding-bottom: 25px;
 }
-/* .under-line{
-  text-decoration: underline;
-  color:
-} */
-
+/*--- FINE SECTION JUMBOO ---*/
 
 /*--- SECTION MARCHI LOGHI ---*/
 
 .marchi{
   background-color: #F2F5F9;
-
 }
 .color-grey{
-  color: lightgrey;
+  color: #BDC3CF;
+  /* color: #9BB0E1; */
 }
+
 ul li{
   list-style-type: none;
 }
+
 .marche li{
   display: inline-block;
 }
+
 .marche > li > img{
   height: 80px;
-  margin-right: 15px;
+  margin-right: 10px;
 }
+/*--- FINE SECTION MARCHI/LOGHI ---*/
 
 /*--- SECTION DEPLOY ---*/
+
 .color-title{
   color: #3E5077;
 }
+
 .deploy > .container > .row  .col-xs-12 > p{
   margin-bottom: 50px;
 }
 
-.deploy .row > .col-lg-4 > ul  li{
+.deploy .row > .col-sm-4 > ul  li{
   border-left: 2px solid lightgrey;
   padding: 10px 10px;
   margin-left: 80px;
 }
+.deploy .row > .col-sm-4 > ul  li:hover{
+  border-left: 2px solid #0047FA;
+  cursor: pointer;
+}
+/*--- FINE SECTION DEPLOY ---*/
+
 /*--- SECTION DESIGN DEVELOPERS ---*/
 
 .design-developer , .development{
   background-color: #F2F5F9;
 }
-/* .design-developer > .container > .row .col-xs-4 > .fa-angle-left{
-  text-align: right;
-} */
+
 .design-developer > .container > .row .col-xs-12 > img{
   height: 300px;
 }
+
 .design-developer > .container > .row .speciale:before{
   content:' \02F1';
   font-size: 40px;
 }
+
 .design-developer > .container > .row .speciale:after{
   content:' \02F2';
   font-size: 40px;
@@ -149,37 +180,61 @@ ul li{
   border: 1px solid #0047FA;
   margin-right: 5px;
 }
+ .circle:hover{
+  background-color: #0047FA;
+  cursor: pointer;
+}
+
 .selezionato{
   background-color: #0047FA;
 }
+/*--- FINE SECTION DESIGN-DEVELOPER ---*/
+
 /*--- SECTION CITY ---*/
+
 .city{
   background-color: #0047FA;
 }
+
 .city > .container > .row .col-lg-6{
   position: relative;
 }
+
 .city > .container > .row .col-lg-6  .code{
   margin-right: 50px;
 }
- .city > .container > .row .col-lg-6 > .name-city{
+
+ .city > .container > .row .col-lg-6  .name-city{
   color: #9BB0E1;
+
 }
+
 .city > .container > .row .col-lg-6  .speed-test{
   position: absolute;
   right: 18px;
   color: #00C2CE;
 }
+/*--- FINE SECTION CITY---*/
 
+/*--- SECTION DEVELOPMENT ---*/
 
 .development > .container > .row .col-xs-12 > img{
   height: 300px;
 }
-.development > .container > .row .speciale:before{
+
+.development > .container > .row .card{
+  background-color: white;
+  text-align: center;
+  height: 250px;
+  width: 400px;
+}
+
+.development > .container > .row .card:before{
   content:' \02F1';
   font-size: 40px;
 }
-.development > .container > .row .speciale:after{
+
+.development > .container > .row .card:after{
   content:' \02F2';
   font-size: 40px;
 }
@@ -192,10 +247,15 @@ ul li{
   border: 1px solid #0047FA;
   margin-right: 5px;
 }
+
+
 .selezionato{
   background-color: #0047FA;
 }
-/*--- FOOTER ---*/
+/*--- FINE SECTION DEVELOPMENT ---*/
+
+/*--- FOOTER + SECTION GET-START---*/
+
 .get-start{
   background-color: #0047FA;
 }
@@ -206,28 +266,97 @@ ul li{
   /* width: 150px; */
   padding: 5px 10px;
   margin-bottom: 40px;
+  background-color: white;
 }
+/*--- FINE SECTION GET-START ---*/
+
+/*--- SECTION DARK-BLUE ---*/
 
 .dark-blue{
   background-color: #031C4E;
 }
+
 .made{
   color: #526080;
 }
+.color-speciale{
+  color: #78839C;
+}
+ .color-speciale > li:hover{
+  color: white;
+  cursor: pointer;
+}
+ .dark-blue > .container > .row > .col-lg-3 > img{
+  margin-bottom: 10px;
+  height: 30px;
+}
+
 .dark-blue > .container > .row > .col-lg-3 ul li{
   display: inline-block;
 }
-.dark-blue > .container > .row > .col-lg-3 > img{
-  margin-top: 40px;
+
+.dark-blue > .container > .row > .col-lg-2 ul li:first-child {
+   font-weight: bold;
+   color: white;
+}
+.dark-blue{
+  position: relative;
+}
+.sqaulo  img{
+  float:right;
+}
+.squalo {
+  height: 30px;
+  position:absolute;
+  bottom: 10px;
+  right: 100px;
+  background-color: #0047FA;
+
+}
+.help-chat{
+  background-color: white;
+  width: 350px;
+  filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.4));
+
+  /* position: absolute; */
+  position:relative;
+  /* bottom: 10px; */
+  /* right: 55px; */
+
+}
+.rotate{
+  height: 25px;
+  width: 20px;
+  background-color: white;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: rotate(45deg);
 }
 
  /* @media all and (min-width: 0px) and (max-width: 1200px) {
    .marchi > .container  .row  .col-lg-12 > .marche > img{
      height: 80px;
    }
- }
- @media all and (min-width: 0px) and (max-width: 954px){
-   .marchi > .container > .row .col-md-12 > .marche{
-     text-align: center;
-   }
+   and (min-width: 0px)
  }*/
+ @media all and (max-width: 992px){
+   .marchi > .container > .row  .marche li{
+     width: calc(100%/6 - 10px);
+   }
+    .marchi > .container > .row  .marche li >img{
+      height: 50px ;
+    }
+ }
+   @media all and (max-width: 767px){
+      .marchi > .container > .row  .marche li{
+        margin-right: 45px;
+        width: calc(100%/3);
+      }
+      .marchi > .container > .row  .marche li >img{
+        height: 80px ;
+      }
+      .deploy > .container .row > .col-xs-12 > .color-grey{
+        margin-left: -80px;
+      }
+  }
