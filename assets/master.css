@@ -8,6 +8,9 @@
 img{
   height: 20px;
 }
+.navbar-brand{
+  margin-right: 50px;
+}
 
 .fa-angle-down:before {
     content: "\f107";
@@ -33,7 +36,7 @@ cursor: pointer;
 
 /*--- SECTION JUMBOOO ---*/
 .jumbo{
-  background-image: url(../assets/img4/bg-blue.svg);
+  background-image: url(../assets/img4/bg-sea.svg);
 }
 
 .color-white{
@@ -224,19 +227,32 @@ ul li{
 
 .development > .container > .row .card{
   background-color: white;
-  text-align: center;
+  margin-top: 40px;
+  /* text-align: center; */
   height: 250px;
-  width: 400px;
+  width: 360px;
 }
 
-.development > .container > .row .card:before{
-  content:' \02F1';
-  font-size: 40px;
+.card > img{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  height: 30px;
 }
 
-.development > .container > .row .card:after{
-  content:' \02F2';
+ .caret-left{
   font-size: 40px;
+  text-align: right;
+  padding-top: 133px;
+   /* position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);*/
+}
+
+.caret-right{
+  font-size: 40px;
+  text-align: left;
+  padding-top: 133px;
 }
 
 .development > .container > .row .col-xs-12 > .circle{
@@ -248,7 +264,6 @@ ul li{
   margin-right: 5px;
 }
 
-
 .selezionato{
   background-color: #0047FA;
 }
@@ -259,6 +274,7 @@ ul li{
 .get-start{
   background-color: #0047FA;
 }
+
 .get-start button{
   color: #0047FA;
   border-radius: 5px;
@@ -279,13 +295,16 @@ ul li{
 .made{
   color: #526080;
 }
+
 .color-speciale{
   color: #78839C;
 }
+
  .color-speciale > li:hover{
   color: white;
   cursor: pointer;
 }
+
  .dark-blue > .container > .row > .col-lg-3 > img{
   margin-bottom: 10px;
   height: 30px;
@@ -300,48 +319,56 @@ ul li{
    color: white;
 }
 
-.box .squalo{
-  float:right;
-  padding-top: -60px;
+.dark-blue{
+  position: relative;
 }
-.box {
-  /* width: 100%; */
+
+.box .squalo{
+margin-left: 20px;
+position:absolute;
+right: 14px;
+bottom: 46px;
+background-color:#0047FA;
+}
+
+.squalo > img{
   height: 30px;
+}
+
+.box {
+  padding: 34px;
   position: fixed;
   z-index: 2;
-  padding: 30px;
-  bottom: 40px;
+  bottom: 0px;
   right: 0px;
 }
+
 .help-chat{
+  margin-right: 30px;
+  border-radius: 5px;
   background-color: white;
   width: 350px;
   filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.4));
-
-  /* position: absolute; */
   position:relative;
-  /* bottom: 10px; */
-  /* right: 55px; */
-
 }
+
+.help-chat > p{
+  margin-left: 10px;
+}
+
 .rotate{
   width: 0;
-height: 0;
-border-top: 10px solid transparent;
-border-bottom: 10px solid transparent;
-border-left: 10px solid green;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid white;
   position: absolute;
   right: -10px;
   bottom: 5px;
   /* transform: rotate(45deg); */
 }
 
- /* @media all and (min-width: 0px) and (max-width: 1200px) {
-   .marchi > .container  .row  .col-lg-12 > .marche > img{
-     height: 80px;
-   }
-   and (min-width: 0px)
- }*/
+
  @media all and (max-width: 992px){
    .marchi > .container > .row  .marche li{
      width: calc(100%/6 - 10px);
